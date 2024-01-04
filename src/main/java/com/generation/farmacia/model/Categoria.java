@@ -20,7 +20,7 @@ public class Categoria {
 
 	@Column(length = 64)
 	@NotBlank(message = "Declare o tipo de Produto.")
-	@Size(min = 3, max = 32, message = "O tipo do jogo cadastrado deve conter de 3 a 32 caracteres")
+	@Size(min = 3, max = 32, message = "O tipo de produto cadastrado deve conter de 3 a 32 caracteres")
 	private String tipo;
 
 	public Long getId() {
